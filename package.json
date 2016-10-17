@@ -1,0 +1,30 @@
+{
+  "name": "project02",
+  "version": "1.0.0",
+  "description": "\"instanews project\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Quinlan",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.3",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-coffee": "^2.3.2",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "sass": "^0.5.0"
+  }
+}

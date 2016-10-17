@@ -1,0 +1,16 @@
+footer {
+    font-family: "open_sanslight";
+    margin-top: 2rem;
+    margin: 0 auto;
+    color: #c2c2c2;
+
+@include tablet {
+    width: 100%;
+    margin: 0 auto;
+
+@include desktop {
+    text-align:left;
+    margin-left: 10%;
+}
+}
+}

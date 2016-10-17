@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="build/css/style.min.css">
+    
+	<title>Instanews</title>
+</head>
+
+<body>
+	<header class="nytlogo">
+		<img src="nyt-logo.svg" alt="logo" class="logo">
+
+		<div class="choose">
+			<h2> Choose a section: </h2>
+			<select class="dropdown">
+                    <option value="" disabled selected> Sections...</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="technology">Technology</option>
+                    <option value="health">Health</option>
+                    <option value="travel">Travel</option>
+                    <option value="world">World</option>
+                    <option value="arts">Arts</option>
+
+                </select>
+			<img src="ajax-loader.gif" alt="loader" class="loader">
+		</div>
+	</header>
+
+	<div class="nytArticles">
+		<ul class="content">
+			<p class="error">Sorry there was an error.
+			</p>
+		</ul>
+	</div>
+
+	<footer>
+		<p> © Copyright 2016 INSTANEWS
+		</p>
+	</footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="build/js/main.min.js"></script>
+
+</html>

@@ -1,0 +1,86 @@
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-light-webfont.woff') format('woff'),
+         url('opensans-light-webfont.ttf') format('truetype'),
+         url('opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color:black;
+    color: white;
+    text-align: center;
+    display:flex;
+    flex-flow: column wrap;
+    font-size: 16px;
+}
+
+.nytlogo {
+    height:200%;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    margin: 1rem;
+}
+.choose {
+    margin-bottom: 1rem;
+    font-family: "open_sanslight";
+    margin:0 auto;
+    border-radius: 2px;
+}
+
+footer {
+font-family: "open_sanslight";
+margin-top: 8rem;
+color: #c2c2c2;
+}
+
+
+@media all and (min-width: 600px){
+
+body {
+   
+    flex-flow: row wrap;
+    max-width: 600px;
+   
+}
+p {
+    text-align:right;
+}
+.nytlogo {
+    margin-left:30%;
+}
+
+.choose{
+    margin-top: 30%;
+    flex: 2;
+}
+
+footer{
+width: 100%;
+}
+
+@media all and (min-width: 1240px){
+
+    
+
+    .nytlogo {
+        margin-left:10%;
+
+    }
+
+    p {
+        text-align:left;
+        margin-left: 10%;
+    }
+}
+
+}

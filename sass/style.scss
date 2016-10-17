@@ -1,0 +1,78 @@
+@import "reset"; 
+@import "fonts";
+@import "mixins";
+@import "header";
+@import "body";
+@import "footer";
+
+//NYT API STYLING
+
+.content {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-top: 2rem;
+        width: 100%;
+
+    }
+
+.nytArticles {
+    width: 100%;
+}
+
+.abstract {
+  
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    max-width: 600px;
+    font-family:"open_sanslight";
+    position: absolute;
+    padding: 3rem;
+    font-size: 16px;
+    line-height: 1rem;
+    text-align: left;
+    bottom: 0;
+}
+
+a {
+    display:flex;
+    align-items:flex-end;
+}
+
+.images {
+    height: 400px;
+    width:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:flex-end; 
+}
+
+.error {
+    font-family: "open_sanslight";
+    color: white;
+    display:none;
+}
+
+li {
+    max-width:100%;
+    flex: 1 1 100%;
+    position: relative; 
+    
+    @include tablet {
+        max-width:50%;
+        flex: 1 1 50%;
+
+    @include desktop {
+        max-width:25%;
+        flex: 1 1 25%;
+    }
+
+    }
+    }
+
+
+
+
+
+  
